@@ -1,0 +1,43 @@
+h1{
+    color:rgb(150, 226, 43);
+    
+    
+}
+/*
+*{
+    border: solid;
+}
+*/
+
+.header{
+    background-color: rgb(172, 136, 206);
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+  background-image:url("Techno1.jpeg");  
+}
+p{/* etiqueta especifica para estilo*/
+    color: aliceblue;
+    font-style: bold;/* estilo de la letra(negrita,italica,subrayado)*/
+    font-size:x-large;/* tamaño de letra*/
+    
+}
+h2{
+    color: aqua;
+    display: flex;
+    justify-content:end;
+}
