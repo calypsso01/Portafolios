@@ -1,7 +1,7 @@
 h1{
     color:rgb(150, 226, 43);
-    
-    
+    margin: 30px;
+    padding: 60px;  
 }
 /*
 *{
@@ -9,31 +9,41 @@ h1{
 }
 */
 
+
 .header{
-    background-color: rgb(172, 136, 206);
+    background-color: rgb(9, 8, 9);
+    background-image: url("roblox.jpeg");
     display: flex;
     justify-content: center;
 }
 .menu{
     display: flex;
     justify-content: center;
+    
+}
+.menu a{
+    margin-left: 30px;
 }
 .grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    row-gap: 50px;
+    
 }
 .footer{
     display: flex;
     justify-content: flex-end;
 }
+
 body{
   background-image:url("Techno1.jpeg");  
 }
+
 p{/* etiqueta especifica para estilo*/
     color: aliceblue;
     font-style: bold;/* estilo de la letra(negrita,italica,subrayado)*/
-    font-size:x-large;/* tamaño de letra*/
+    font-size: medium;/* tamaño de letra*/
     
 }
 h2{
@@ -41,3 +51,26 @@ h2{
     display: flex;
     justify-content:end;
 }
+a:link {
+    color: aliceblue;
+}
+a:visited{
+    color:rgb(28, 255, 100)
+}
+.item{
+    position:relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+
